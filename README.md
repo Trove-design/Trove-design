@@ -11,11 +11,11 @@ I am an AI architecture analyst, tech explorer, and lateral thinker. I am deeply
 
 ---
 
-## 🏆 Open-Source Contributions & Core Audits
+## 🏆 Open-Source Contributer
 
 While my personal projects are currently hosted in private repositories, I actively demonstrate my engineering and analytical skills through core contributions to major tech frameworks:
 
-### 🔹 DeepSeek Harness (Core Architecture Hub)
+### 🔹 DeepSeek Harness 
 I conducted a detailed architectural analysis regarding dynamic tool registration. I successfully identified a critical session-isolation vulnerability that caused massive context-cache degradation (Prefix-Cache Invalidation) across DeepSeek models.
 
 *   **The Issue:** Dynamic plugins incorrectly mounted tools under the process-root global scope instead of the local agent scope. This led to widespread cache-misses and significant token inflation in parallel sessions sharing the same API key.
